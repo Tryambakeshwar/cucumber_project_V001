@@ -1,0 +1,546 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "verify login functinality with valid credential",
+        "description": "",
+        "id": "test-sips-site-login-functionality;verify-login-functinality-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14200462000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user need to be on sips login page",
+            "match": {
+              "location": "Loginsteps.user_need_to_be_on_sips_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 229393600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter email as \"admin@yourstore.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginsteps.user_enter_email_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151042700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 24
+                }
+              ],
+              "location": "Loginsteps.user_enter_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9059022000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on login button",
+            "match": {
+              "location": "Loginsteps.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3056224400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "dashbord page title should be visible \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard / nopCommerce administration",
+                  "offset": 39
+                }
+              ],
+              "location": "Loginsteps.dashbord_page_title_should_be_visible(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1963625800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on logout link",
+            "match": {
+              "location": "Loginsteps.user_click_on_logout_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42447200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "login page title should be visible \"Your store. Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your store. Login",
+                  "offset": 36
+                }
+              ],
+              "location": "Loginsteps.login_page_title_should_be_visible(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1080219200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close brawser",
+            "match": {
+              "location": "Loginsteps.close_brawser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "verify login functinality with valid and invalid credential",
+        "description": "",
+        "id": "test-sips-site-login-functionality;verify-login-functinality-with-valid-and-invalid-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5670238500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user need to be on sips login page",
+            "match": {
+              "location": "Loginsteps.user_need_to_be_on_sips_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 352839400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter email as \"admin@yourstore.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginsteps.user_enter_email_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 317529500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enter password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 24
+                }
+              ],
+              "location": "Loginsteps.user_enter_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6750068600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click on login button",
+            "match": {
+              "location": "Loginsteps.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3037918100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "dashbord page title should be visible \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard / nopCommerce administration",
+                  "offset": 39
+                }
+              ],
+              "location": "Loginsteps.dashbord_page_title_should_be_visible(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1820722100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click on logout link",
+            "match": {
+              "location": "Loginsteps.user_click_on_logout_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35650300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "login page title should be visible \"Your store. Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your store. Login",
+                  "offset": 36
+                }
+              ],
+              "location": "Loginsteps.login_page_title_should_be_visible(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 863798300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "close brawser",
+            "match": {
+              "location": "Loginsteps.close_brawser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "verify login functinality with valid and invalid credential",
+        "description": "",
+        "id": "test-sips-site-login-functionality;verify-login-functinality-with-valid-and-invalid-credential;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4389476600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user need to be on sips login page",
+            "match": {
+              "location": "Loginsteps.user_need_to_be_on_sips_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 321368800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter email as \"admin234@yourstore.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin234@yourstore.com",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginsteps.user_enter_email_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162167800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enter password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 24
+                }
+              ],
+              "location": "Loginsteps.user_enter_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 663302800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click on login button",
+            "match": {
+              "location": "Loginsteps.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36597200,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Your store. Logi]n\u003e but was:\u003c[Dashboard / nopCommerce administratio]n\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepDefinations.Loginsteps.dashbord_page_title_should_be_visible(Loginsteps.java:53)\r\n\tat ✽.Then dashbord page title should be visible \"Dashboard / nopCommerce administration\"(./Features/login.feature:18)\r\n",
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "dashbord page title should be visible \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard / nopCommerce administration",
+                  "offset": 39
+                }
+              ],
+              "location": "Loginsteps.dashbord_page_title_should_be_visible(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user click on logout link",
+            "match": {
+              "location": "Loginsteps.user_click_on_logout_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "login page title should be visible \"Your store. Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your store. Login",
+                  "offset": 36
+                }
+              ],
+              "location": "Loginsteps.login_page_title_should_be_visible(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "close brawser",
+            "match": {
+              "location": "Loginsteps.close_brawser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "verify login functinality with valid and invalid credential",
+        "description": "",
+        "id": "test-sips-site-login-functionality;verify-login-functinality-with-valid-and-invalid-credential;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4725163800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user need to be on sips login page",
+            "match": {
+              "location": "Loginsteps.user_need_to_be_on_sips_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 283402800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter email as \"admin@yourstore.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginsteps.user_enter_email_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148387700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enter password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 24
+                }
+              ],
+              "location": "Loginsteps.user_enter_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 785839000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click on login button",
+            "match": {
+              "location": "Loginsteps.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24848800,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Your store. Logi]n\u003e but was:\u003c[Dashboard / nopCommerce administratio]n\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepDefinations.Loginsteps.dashbord_page_title_should_be_visible(Loginsteps.java:53)\r\n\tat ✽.Then dashbord page title should be visible \"Dashboard / nopCommerce administration\"(./Features/login.feature:18)\r\n",
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "dashbord page title should be visible \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard / nopCommerce administration",
+                  "offset": 39
+                }
+              ],
+              "location": "Loginsteps.dashbord_page_title_should_be_visible(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user click on logout link",
+            "match": {
+              "location": "Loginsteps.user_click_on_logout_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "login page title should be visible \"Your store. Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your store. Login",
+                  "offset": 36
+                }
+              ],
+              "location": "Loginsteps.login_page_title_should_be_visible(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "close brawser",
+            "match": {
+              "location": "Loginsteps.close_brawser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test sips-site Login functionality",
+    "description": "",
+    "id": "test-sips-site-login-functionality",
+    "keyword": "Feature",
+    "uri": "./Features/login.feature"
+  }
+]

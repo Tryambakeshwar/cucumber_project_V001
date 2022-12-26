@@ -58,7 +58,7 @@ formatter.match({
   "location": "Loginsteps.user_need_to_be_on_sips_login_page()"
 });
 formatter.result({
-  "duration": 13478752400,
+  "duration": 14200462000,
   "status": "passed"
 });
 formatter.match({
@@ -71,7 +71,7 @@ formatter.match({
   "location": "Loginsteps.user_enter_email_as(String)"
 });
 formatter.result({
-  "duration": 292514500,
+  "duration": 229393600,
   "status": "passed"
 });
 formatter.match({
@@ -84,14 +84,14 @@ formatter.match({
   "location": "Loginsteps.user_enter_password_as(String)"
 });
 formatter.result({
-  "duration": 217426400,
+  "duration": 151042700,
   "status": "passed"
 });
 formatter.match({
   "location": "Loginsteps.user_click_on_login_button()"
 });
 formatter.result({
-  "duration": 7465675900,
+  "duration": 9059022000,
   "status": "passed"
 });
 formatter.match({
@@ -104,14 +104,14 @@ formatter.match({
   "location": "Loginsteps.dashbord_page_title_should_be_visible(String)"
 });
 formatter.result({
-  "duration": 3252836800,
+  "duration": 3056224400,
   "status": "passed"
 });
 formatter.match({
   "location": "Loginsteps.user_click_on_logout_link()"
 });
 formatter.result({
-  "duration": 1765939500,
+  "duration": 1963625800,
   "status": "passed"
 });
 formatter.match({
@@ -124,14 +124,14 @@ formatter.match({
   "location": "Loginsteps.login_page_title_should_be_visible(String)"
 });
 formatter.result({
-  "duration": 35270100,
+  "duration": 42447200,
   "status": "passed"
 });
 formatter.match({
   "location": "Loginsteps.close_brawser()"
 });
 formatter.result({
-  "duration": 852364900,
+  "duration": 1080219200,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -281,7 +281,7 @@ formatter.match({
   "location": "Loginsteps.user_need_to_be_on_sips_login_page()"
 });
 formatter.result({
-  "duration": 4018624300,
+  "duration": 5670238500,
   "status": "passed"
 });
 formatter.match({
@@ -294,7 +294,7 @@ formatter.match({
   "location": "Loginsteps.user_enter_email_as(String)"
 });
 formatter.result({
-  "duration": 250367100,
+  "duration": 352839400,
   "status": "passed"
 });
 formatter.match({
@@ -307,14 +307,14 @@ formatter.match({
   "location": "Loginsteps.user_enter_password_as(String)"
 });
 formatter.result({
-  "duration": 188118100,
+  "duration": 317529500,
   "status": "passed"
 });
 formatter.match({
   "location": "Loginsteps.user_click_on_login_button()"
 });
 formatter.result({
-  "duration": 3474962500,
+  "duration": 6750068600,
   "status": "passed"
 });
 formatter.match({
@@ -327,14 +327,14 @@ formatter.match({
   "location": "Loginsteps.dashbord_page_title_should_be_visible(String)"
 });
 formatter.result({
-  "duration": 3044397800,
+  "duration": 3037918100,
   "status": "passed"
 });
 formatter.match({
   "location": "Loginsteps.user_click_on_logout_link()"
 });
 formatter.result({
-  "duration": 776375800,
+  "duration": 1820722100,
   "status": "passed"
 });
 formatter.match({
@@ -347,15 +347,15 @@ formatter.match({
   "location": "Loginsteps.login_page_title_should_be_visible(String)"
 });
 formatter.result({
-  "duration": 662503100,
-  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d108.0.5359.125)\nBuild info: version: \u00273.5.2\u0027, revision: \u002710229a9\u0027, time: \u00272017-08-21T17:29:55.15Z\u0027\nSystem info: host: \u0027DESKTOP-4MFCGRI\u0027, ip: \u0027192.168.72.39\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}), userDataDir\u003dC:\\Users\\Tryambak\\AppData\\Local\\Temp\\scoped_dir12588_564659664}, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003ddismiss and notify, strictFileInteractability\u003dfalse, platform\u003dANY, proxy\u003dProxy(), goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:64170}, webauthn:extension:credBlob\u003dtrue, acceptInsecureCerts\u003dfalse, browserVersion\u003d108.0.5359.125, browserName\u003dchrome, javascriptEnabled\u003dtrue, platformName\u003dwindows, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: a974b8bd53a6e8ca60ec41c1076409ab\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:372)\r\n\tat stepDefinations.Loginsteps.login_page_title_should_be_visible(Loginsteps.java:69)\r\n\tat ✽.And login page title should be visible \"Your store. Login\"(./Features/login.feature:20)\r\n",
-  "status": "failed"
+  "duration": 35650300,
+  "status": "passed"
 });
 formatter.match({
   "location": "Loginsteps.close_brawser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 863798300,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 26,
@@ -415,7 +415,7 @@ formatter.match({
   "location": "Loginsteps.user_need_to_be_on_sips_login_page()"
 });
 formatter.result({
-  "duration": 4669883000,
+  "duration": 4389476600,
   "status": "passed"
 });
 formatter.match({
@@ -428,7 +428,7 @@ formatter.match({
   "location": "Loginsteps.user_enter_email_as(String)"
 });
 formatter.result({
-  "duration": 401810100,
+  "duration": 321368800,
   "status": "passed"
 });
 formatter.match({
@@ -441,14 +441,14 @@ formatter.match({
   "location": "Loginsteps.user_enter_password_as(String)"
 });
 formatter.result({
-  "duration": 256362000,
+  "duration": 162167800,
   "status": "passed"
 });
 formatter.match({
   "location": "Loginsteps.user_click_on_login_button()"
 });
 formatter.result({
-  "duration": 769341800,
+  "duration": 663302800,
   "status": "passed"
 });
 formatter.match({
@@ -461,7 +461,7 @@ formatter.match({
   "location": "Loginsteps.dashbord_page_title_should_be_visible(String)"
 });
 formatter.result({
-  "duration": 54869000,
+  "duration": 36597200,
   "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Your store. Logi]n\u003e but was:\u003c[Dashboard / nopCommerce administratio]n\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepDefinations.Loginsteps.dashbord_page_title_should_be_visible(Loginsteps.java:53)\r\n\tat ✽.Then dashbord page title should be visible \"Dashboard / nopCommerce administration\"(./Features/login.feature:18)\r\n",
   "status": "failed"
 });
@@ -545,4 +545,80 @@ formatter.step({
 });
 formatter.match({
   "location": "Loginsteps.user_need_to_be_on_sips_login_page()"
+});
+formatter.result({
+  "duration": 4725163800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin@yourstore.com",
+      "offset": 21
+    }
+  ],
+  "location": "Loginsteps.user_enter_email_as(String)"
+});
+formatter.result({
+  "duration": 283402800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin123",
+      "offset": 24
+    }
+  ],
+  "location": "Loginsteps.user_enter_password_as(String)"
+});
+formatter.result({
+  "duration": 148387700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Loginsteps.user_click_on_login_button()"
+});
+formatter.result({
+  "duration": 785839000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Dashboard / nopCommerce administration",
+      "offset": 39
+    }
+  ],
+  "location": "Loginsteps.dashbord_page_title_should_be_visible(String)"
+});
+formatter.result({
+  "duration": 24848800,
+  "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Your store. Logi]n\u003e but was:\u003c[Dashboard / nopCommerce administratio]n\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepDefinations.Loginsteps.dashbord_page_title_should_be_visible(Loginsteps.java:53)\r\n\tat ✽.Then dashbord page title should be visible \"Dashboard / nopCommerce administration\"(./Features/login.feature:18)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "Loginsteps.user_click_on_logout_link()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Your store. Login",
+      "offset": 36
+    }
+  ],
+  "location": "Loginsteps.login_page_title_should_be_visible(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Loginsteps.close_brawser()"
+});
+formatter.result({
+  "status": "skipped"
+});
 });
